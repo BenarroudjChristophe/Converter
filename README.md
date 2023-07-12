@@ -1,4 +1,4 @@
 # Converter
 
-![Texte alternatif](image.png "Le titre de mon image")
+![Alt text](image-1.png)
 ![Alt text](image.png)

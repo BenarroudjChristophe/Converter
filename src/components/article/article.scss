@@ -32,12 +32,14 @@
         padding-left: 5px;
         margin-left: -40px;
         transition: background-color 1s;
+        caret-color: black;
         
         &:hover{
             background-color: #f1c5b6;
             transition: 0.2s;
-            
+            cursor: pointer;
         }
+
 
         &:active{
             background-color: $color-primaire;
