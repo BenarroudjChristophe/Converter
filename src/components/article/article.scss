@@ -1,0 +1,48 @@
+.dataList{
+    position: relative;
+    list-style-type: none;
+    text-align: start;
+    background-color: white;
+    margin: 0;
+    color: $color-primaire;    
+    font-family: 'League Spartan', sans-serif;
+    width: 260px;
+    position: relative;
+    overflow-y: scroll;
+    max-height: 270px;
+    margin-left: 12px;
+    
+        
+    
+    & h3{
+        font-weight: 600;
+        
+        margin-left: -35px;
+        
+    }
+    
+    
+    & li {
+        border-top: 1px solid #f1c5b6;
+        display: block;
+        height: 43px;
+        font-size: 1.4rem;
+        font-weight: 400;
+        padding-top: 7px;
+        padding-left: 5px;
+        margin-left: -40px;
+        transition: background-color 1s;
+        
+        &:hover{
+            background-color: #f1c5b6;
+            transition: 0.2s;
+            
+        }
+
+        &:active{
+            background-color: $color-primaire;
+        }
+        
+    }
+
+}
